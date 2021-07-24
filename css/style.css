@@ -33,9 +33,9 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 600;
-
-
+  background-color:#fff ;
 }
+
 
 .container form {
   padding: 30px 0 0 0;
@@ -107,7 +107,7 @@ form .form-row .textarea {
   content: "";
   height: 2px;
   width: 100%;
-  background: #3498db;
+  background:#289672;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -131,7 +131,7 @@ form .form-row .textarea {
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #171010, #1E6F5C, #171010, #00917C);
+  background: -webkit-linear-gradient(right,  #789fa4, #1E6F5C, #042328, #00917C);
   transition: all 0.4s;
 }
 
@@ -140,7 +140,7 @@ form .form-row .textarea {
 }
 
 .submit-btn .input-data input {
-  background: none;
+  background:none;
   border: none;
   color: #fff;
   font-size: 17px;
